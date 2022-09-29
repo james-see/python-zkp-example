@@ -1,4 +1,4 @@
-## snarf snarf
+## snarf snarf merkle trees snarf
 
 ### HOW
 
@@ -11,4 +11,8 @@
 ### THE REST
 
 Who knows. The dude abides.
+
+### Warning
+
+This is an example repo. It uses the merkle-tools library in python that is a port from [this](https://github.com/tierion/merkle-tools) repo for python
 
