@@ -21,13 +21,13 @@ root = mt.get_merkle_root()
 print(f"Root from the tree: {root}")
 
 # hash testing
+# this is the repeat of what is going on 
 hash = hashlib.sha256(b'Some text data')
 print(hash.digest())
 # end hash testing
 leaf_count = mt.get_leaf_count()
 print(leaf_count)
 
-print(mt.leaves)
-print(mt.get_proof(1))
-print(mt.validate_proof(mt.get_proof(1), hash.hexdigest(), mt.get_merkle_root()))
-
+print(f"All the leaves as byte strings: {mt.leaves}")
+print(f"Here is the proof: {mt.get_proof(1)}")
+print(f"Now the validation: {mt.validate_proof(mt.get_proof(1), hash.hexdigest(), mt.get_merkle_root())}")

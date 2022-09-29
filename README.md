@@ -16,3 +16,4 @@ Who knows. The dude abides.
 
 This is an example repo. It uses the merkle-tools library in python that is a port from [this](https://github.com/tierion/merkle-tools) repo for python
 
+This is not meant to be production code, but is an easy way to prove the concept and could turn into production code with some time and effort.
